@@ -68,6 +68,6 @@ npm run test
 
 [FIGMA](https://citizenship-portal.web.app)
 
-## Contibutors
+## Contributors
 
 #### [Ahmad Kayyali](https://github.com/kayyali18) - Web Developer

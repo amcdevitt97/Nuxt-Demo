@@ -15,7 +15,7 @@ export const mutations = {
     // Payload should be POJO containing user's info
     const { user } = payload
 
-    // Set the key in state to = value from payload
+    // Set the key in state to match the value from payload
     state.user = { ...user }
   }
 }
@@ -26,6 +26,8 @@ export const actions = {
     const { action, user } = payload
     if (action === 'register') {
       // Do stuff
+
+      // Mutate the vuex store using commit('mutation', params)
       commit('setUser', user)
     } else if (action === 'logout') commit('clearUser')
   }

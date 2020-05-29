@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Public+Sans:400,400i,700&display=swap');
+
+/* purgecss start ignore */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+/* purgecss end ignore */
+@import 'tailwindcss/utilities';
+
+body {
+  @apply font-public-sans
+}

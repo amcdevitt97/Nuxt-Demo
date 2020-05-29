@@ -1,4 +1,5 @@
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
 # Humanity Forward's Citizenship Portal
 
 ## Get Started
@@ -14,7 +15,12 @@ Leave a comment on the issue if you decide to tackle it and let us know if you h
 
 If you find something you like and wanna get started, follow the instructions below to get up and running
 
------- Make sure to add your name to the contributors under the *README* ------
+------ Make sure to add your name to the contributors under the _README_ ------
+
+### US Gov't Style Guide
+
+Please follow the standards set by U.S. Web Design System (USWDS)
+https://designsystem.digital.gov/components/icons/
 
 ### Dependencies
 
@@ -38,6 +44,7 @@ Make sure to install dependencies by running:
 ## Fire it up
 
 ### NPM
+
 ```
 # serve with hot reload at localhost:3000
 $ npm run dev
@@ -51,6 +58,7 @@ $ npm run generate
 ```
 
 ### Yarn
+
 ```
 # install dependencies
 $ yarn install
@@ -65,7 +73,6 @@ $ yarn start
 # generate static project
 $ yarn generate
 ```
-
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
 
@@ -86,4 +93,5 @@ To run our test suite:
 ## Contibutors
 
 #### [Ahmad Kayyali](https://github.com/kayyali18) - Web Developer
+
 #### [Ricky](https://github.com/ricky-sb) - Web Developer

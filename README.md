@@ -17,6 +17,21 @@ If you find something you like and wanna get started, follow the instructions be
 
 ------ Make sure to add your name to the contributors under the _README_ ------
 
+# To Contribute to the Project:
+
+- Our list of Issues on GitHub Issues: (https://github.com/Citizenship-Portal/Nuxt-Demo/issues)
+  Please use these issues to direct the contributions you desire to make.
+
+- To send a Pull Request via GitHub:
+  - Checkout a new branch
+  - Add a forked version of this repo as your remote
+  - Push up changes to your forked repo
+  - Request the Pull Request to the original repo
+  - Include a brief commit message details the changes you have made
+  - Make sure to write tests for the front end
+  - Make sure all tests are passing before you make a Pull Request
+  - Before submitting, rebase your work from the current master branch
+
 ### US Gov't Style Guide
 
 Please follow the standards set by U.S. Web Design System (USWDS)

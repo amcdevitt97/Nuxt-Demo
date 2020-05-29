@@ -14,6 +14,8 @@ Leave a comment on the issue if you decide to tackle it and let us know if you h
 
 If you find something you like and wanna get started, follow the instructions below to get up and running
 
+------ Make sure to add your name to the contributors under the *README* ------
+
 ### Dependencies
 
 - NodeJS 10.14.x or newer
@@ -84,3 +86,4 @@ To run our test suite:
 ## Contibutors
 
 #### [Ahmad Kayyali](https://github.com/kayyali18) - Web Developer
+#### [Ricky](https://github.com/ricky-sb) - Web Developer

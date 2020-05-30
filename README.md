@@ -101,6 +101,10 @@ To run our test suite:
 
 `npm run test`
 
+#### Learn how to test with Vue with Jest
+
+[Testing Vue w/ Jest](https://alligator.io/vuejs/testing-vue-with-jest/)
+
 ## Design and Comps
 
 [FIGMA](https://citizenship-portal.web.app)

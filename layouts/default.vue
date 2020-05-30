@@ -1,8 +1,17 @@
 <template>
   <div>
+    <dashboard-header></dashboard-header>
     <nuxt />
   </div>
 </template>
 
-<style>
-</style>
+<script>
+import DashboardHeader from '~/components/nav/DashboardHeader.vue'
+export default {
+  components: {
+    DashboardHeader
+  }
+}
+</script>
+
+<style></style>

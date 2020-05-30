@@ -107,7 +107,7 @@ To run our test suite:
 
 ## Design and Comps
 
-[FIGMA](https://citizenship-portal.web.app)
+[FIGMA](https://citizenship-portal2.web.app)
 
 ## Contibutors
 

@@ -4,7 +4,7 @@ export const state = () => ({
   imageUrl: '',
   loggedIn: true,
   newUser: false,
-  loggedInAt: new Date(),
+  loggedInAt: new Date()
 })
 
 // ----------- Mutations
@@ -17,7 +17,7 @@ export const mutations = {
 
     // Set the key in state to match the value from payload
     state.user = { ...user }
-  },
+  }
 }
 
 // --------- Actions
@@ -30,10 +30,10 @@ export const actions = {
       // Mutate the vuex store using commit('mutation', params)
       commit('setUser', user)
     } else if (action === 'logout') commit('clearUser')
-  },
+  }
 }
 
 // --------- Getters
 export const getters = {
-  user: (state) => state.user,
+  user: (state) => state.user
 }

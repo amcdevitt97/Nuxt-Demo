@@ -114,3 +114,5 @@ To run our test suite:
 #### [Ahmad Kayyali](https://github.com/kayyali18) - Web Developer
 
 #### [Ricky](https://github.com/ricky-sb) - Web Developer
+
+#### [Rodney](https://github.com/RodneyMorgan97) - Web Developer

@@ -2,8 +2,12 @@
   <header role="banner" class="banner">
     <div class="masthead grid-col-2">
       <div class="title-container">
-        <!-- <logo /> -->
-        <p class="website-portal-title">Citizenship Portal</p>
+        <div class="title-container-element">
+          <citizenship-portal-icon />
+        </div>
+        <div class="title-container-element">
+          <b class="website-portal-title">Citizenship Portal</b>
+        </div>
       </div>
       <div>
         {{ 'User icon and dropdown here ' }}
@@ -17,22 +21,31 @@
     </nav>
   </header>
 </template>
-
 <script>
+import CitizenshipPortalIcon from './CitizenshipPortalIcon.vue'
 export default {
   name: 'DashboardHeader',
+  components: {
+    CitizenshipPortalIcon
+  },
   data() {
     return {}
   }
 }
 </script>
-
 <style scoped>
 .banner {
   padding: 2em 2em 0 2em;
 }
+.title-container{
+
+}
+.title-container-element{
+  display: inline-block;
+  vertical-align: middle;
+}
 .website-portal-title {
-  font-size: 2em
+  font-size: 1.5em;
 }
 .dropdown-container {
   padding: space-between;
@@ -41,12 +54,13 @@ li {
   display: inline-block;
   text-align: center;
   text-justify: auto;
-  color: #565C65;
+  color: #565c65;
   padding-top: 1em;
   padding-bottom: 2em;
 }
 
 li:hover {
-  background-color: #162D51
+  background-color: #162d51;
+  color: #ffffff;
 }
 </style>

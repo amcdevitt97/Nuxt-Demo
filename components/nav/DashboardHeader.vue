@@ -55,7 +55,7 @@ export default {
 }
 .dropdown-container {
   padding: space-between;
-  margin-left: 8em;
+  margin-left: 10em;
 }
 .user-account-dropdown {
   width: 2em;

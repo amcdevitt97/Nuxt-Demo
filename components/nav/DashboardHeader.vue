@@ -2,31 +2,34 @@
   <header role="banner" class="banner">
     <div class="masthead grid-col-2">
       <div class="title-container">
-        <div class="title-container-element">
-          <citizenship-portal-icon />
+        <div class="title-element">
+          <citizenship-portal-icon class="icon" />
         </div>
-        <div class="title-container-element">
-          <b class="website-portal-title">Citizenship Portal</b>
+        <div class="title-element">
+          <b class="website-title">Citizenship Portal</b>
         </div>
       </div>
-      <div>
-        {{ 'User icon and dropdown here ' }}
-        <!-- <user-dropdown></user-dropdown> -->
+      <div class="title-element user-account-dropdown-container">
+        <user-account-dropdown class="user-account-dropdown" />
       </div>
     </div>
     <nav class="navbar grid-col-auto-fill dropdown-container" role="navigation">
-      <li v-for="i in 5" :key="i">Dropdown {{ i }}</li>
-
+      <li v-for="i in 6" :key="i" class="dropdown-entry">
+        Dropdown {{ i }}
+        <img class="dropdown-caret" src="../../assets/images/icons/caret.svg" />
+      </li>
       <!-- <search-bar></search-bar> -->
     </nav>
   </header>
 </template>
 <script>
-import CitizenshipPortalIcon from './CitizenshipPortalIcon.vue'
+import CitizenshipPortalIcon from '../brand/CitizenshipPortalIcon.vue'
+import UserAccountDropdown from './UserAccountDropdown/UserAccountDropdown.vue'
 export default {
   name: 'DashboardHeader',
   components: {
-    CitizenshipPortalIcon
+    CitizenshipPortalIcon,
+    UserAccountDropdown
   },
   data() {
     return {}
@@ -37,30 +40,47 @@ export default {
 .banner {
   padding: 2em 2em 0 2em;
 }
-.title-container{
-
+.icon {
+  width: 2em;
 }
-.title-container-element{
+.title-container {
+  padding-bottom: 1em;
+}
+.title-element {
   display: inline-block;
   vertical-align: middle;
 }
-.website-portal-title {
+.website-title {
   font-size: 1.5em;
 }
 .dropdown-container {
   padding: space-between;
+  margin-left: 8em;
+}
+.user-account-dropdown {
+  width: 2em;
+}
+.user-account-dropdown-container {
+  margin-left: auto;
+  margin-right: 4em;
+  display: inline-block;
 }
 li {
   display: inline-block;
-  text-align: center;
   text-justify: auto;
   color: #565c65;
-  padding-top: 1em;
-  padding-bottom: 2em;
+  padding: 1em 1em 2em;
+  display: flex;
+  flex-direction: row;
 }
-
 li:hover {
   background-color: #162d51;
   color: #ffffff;
+}
+.dropdown-caret {
+  width: 5%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: 0;
 }
 </style>

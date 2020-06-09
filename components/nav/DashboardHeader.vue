@@ -18,17 +18,19 @@
         Dropdown {{ i }}
         <img class="dropdown-caret" src="../../assets/images/icons/caret.svg" />
       </li>
-      <!-- <search-bar></search-bar> -->
+      <SearchBar />
     </nav>
   </header>
 </template>
 <script>
 import CitizenshipPortalIcon from '../brand/CitizenshipPortalIcon.vue'
 import UserAccountDropdown from './UserAccountDropdown/UserAccountDropdown.vue'
+import SearchBar from '../search/SearchBar.vue'
 export default {
   name: 'DashboardHeader',
   components: {
     CitizenshipPortalIcon,
+    SearchBar,
     UserAccountDropdown
   },
   data() {

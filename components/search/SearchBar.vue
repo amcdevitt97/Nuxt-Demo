@@ -22,5 +22,5 @@ export default {
 }
 </script>
 <style>
-@import '../../node_modules/uswds/dist/css/uswds.css';
+@import 'uswds';
 </style>

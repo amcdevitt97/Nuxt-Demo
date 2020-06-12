@@ -11,18 +11,15 @@ USWDS SASS GULPFILE
 ----------------------------------------
 */
 
-// Set up using https://github.com/uswds/uswds-gulp
-
 const autoprefixer = require('autoprefixer')
 const csso = require('postcss-csso')
 const gulp = require('gulp')
-const pkg = require('./node_modules/uswds/package.json')
 const postcss = require('gulp-postcss')
 const replace = require('gulp-replace')
 const sass = require('gulp-sass')
 const sourcemaps = require('gulp-sourcemaps')
-const uswds = require('./node_modules/uswds-gulp/config/uswds')
-
+const uswds = require('uswds')
+const pkg = require(`${uswds}/package.json`)
 sass.compiler = require('sass')
 
 /*
@@ -37,19 +34,19 @@ PATHS
 */
 
 // Project Sass source directory
-const PROJECT_SASS_SRC = './assets/USWDS_settings'
+const PROJECT_SASS_SRC = './node_modules/uswds/./path/to/project/sass'
 
 // Images destination
-const IMG_DEST = './assets/images'
+const IMG_DEST = './path/to/images/destination'
 
 // Fonts destination
-const FONTS_DEST = './assets/fonts'
+const FONTS_DEST = './path/to/fonts/destination'
 
 // Javascript destination
-const JS_DEST = './assets/USWDS_javascript'
+const JS_DEST = './path/to/js/destination'
 
 // Compiled CSS destination
-const CSS_DEST = './assets/css'
+const CSS_DEST = './path/to/css/destination'
 
 // Site CSS destination
 // Like the _site/assets/css directory in Jekyll, if necessary.
